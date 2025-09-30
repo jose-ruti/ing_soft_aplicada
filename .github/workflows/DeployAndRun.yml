@@ -42,7 +42,7 @@ jobs:
     - name: 'deploy Container Instance'
       uses: azure/aci-deploy@v1
       with:
-        location: eastus
+        location: brazilsouth
         name: azureapp
         resource-group: ${{ secrets.AZURE_RESOURCE_GROUP }}
         image: ${{ secrets.ACR_NAME_URL }}/${{env.REPO_NAME}}:${{ github.sha }}
