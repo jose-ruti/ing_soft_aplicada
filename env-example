@@ -1,0 +1,11 @@
+RESOURCE_GROUP= "UM_Group_20"
+ACR_NAME='umgroup20'
+IMAGE_NAME='microservicenotificacion'
+TAG_NAME='YOUR-TAG-NAME'
+SERVICE_PRINCIPAL_NAME='umapp2025-service'
+LOCATION='eastus'
+CONTAINER_NAME='um-app-container'
+DNS_NAME_LABEL='um-app-dns'  
+CPU='0.25'
+MEMORY_GB='0.5'
+PORT='5000'

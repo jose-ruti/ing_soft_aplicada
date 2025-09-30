@@ -1,0 +1,10 @@
+services:
+  azure-app:
+    build: .
+    image: azure-app:v1.0
+    ports:
+      - "8080:8080"
+
+networks:
+    mired:
+        external: true
